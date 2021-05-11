@@ -1,4 +1,4 @@
-export const url = 'https://wishlist-service-endava.herokuapp.com/api';
+export const url = 'https://wishlist-service-app.herokuapp.com/api';
 
 export function createWishlist(data) {
     return fetch(`${url}/wishlists`, {
